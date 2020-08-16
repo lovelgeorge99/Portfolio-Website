@@ -1,10 +1,3 @@
-/**
- * jQuery Line Progressbar
- * Author: KingRayhan<rayhan095@gmail.com>
- * Author URL: http://rayhan.info
- * Version: 1.0.0
- */
-
 (function($){
 	'use strict';
 
@@ -26,7 +19,7 @@
 		return this.each(function(index, el) {
 			// Markup
 			$(el).html('<div class="progressbar"><div class="proggress"></div><div class="percentCount"></div></div>');
-			
+
 
 
 			var progressFill = $(el).find('.proggress');
@@ -49,7 +42,7 @@
 				{
 					width: options.percentage + "%"
 				},
-				{	
+				{
 					step: function(x) {
 						if(options.ShowProgressCount){
 							$(el).find(".percentCount").text(Math.round(x) + "%");

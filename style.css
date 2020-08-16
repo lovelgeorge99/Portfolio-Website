@@ -1,32 +1,3 @@
-
-/*
-Template Name: Kevin
-Author: MarkUps
-Author URI: http://www.markups.io/
-Version: 1.0
-*/
-
-
-/* Table of Content
-==================================================
-#BASIC TYPOGRAPHY
-#HEADER
-#MENU
-#FEATURED SLIDER
-#ABOUT US
-#SERVICE
-#PORTFOLIO
-#TESTIMONIAL
-#CONTACT US
-#FOOTER
-#RESPONSIVE STYLE
-*/
-
-
-/*--------------------*/
-/* BASIC TYPOGRAPHY */
-/*--------------------*/
-
 body,
 html {
 	overflow-x:hidden;
@@ -168,8 +139,6 @@ button:focus {
 	border: none;
 }
 
-/*Wordpress default class*/
-
 .alignleft {
 	float:left;
 	margin-right:8px;
@@ -194,8 +163,6 @@ button:focus {
 	font-style: italic;
 	text-align: center;
 }
-
-/* ========= BUTTON =========*/
 
 .mu-primary-btn {
 	background-color: transparent;
@@ -238,11 +205,6 @@ button:focus {
 }
 
 
-
-/*--------------------*/
-/* HEADER */
-/*--------------------*/
-
 #mu-header {
 	display: inline;
 	float: left;
@@ -277,10 +239,6 @@ button:focus {
 	padding: 15px 0;
 }
 
-
-/*--------------------*/
-/* MENU */
-/*--------------------*/
 
 .mu-navbar {
 	background-color: transparent;
@@ -333,9 +291,6 @@ button:focus {
 }
 
 
-/*--------------------*/
-/* FEATURED SLIDER */
-/*--------------------*/
 
 #mu-featured-slider {
 	background-attachment: fixed;
@@ -406,9 +361,6 @@ button:focus {
 }
 
 
-/*--------------------*/
-/* ABOUT US */
-/*--------------------*/
 #resume-center{
 	display: inline;
 	float: left;
@@ -555,11 +507,6 @@ button:focus {
 }
 
 
-/*--------------------*/
-/* SERVICE */
-/*--------------------*/
-
-
 #mu-service {
 	display: inline;
 	float: left;
@@ -627,10 +574,6 @@ button:focus {
 	letter-spacing: 0.5px;
 }
 
-
-/*--------------------*/
-/* PORTFOLIO */
-/*--------------------*/
 
 
 #mu-portfolio {
@@ -756,8 +699,6 @@ button:focus {
 }
 
 
-/* Filter controls */
-
 .mu-simplefilter {
 	text-align: center;
 }
@@ -781,9 +722,6 @@ button:focus {
 }
 
 
-/*--------------------*/
-/* CLIENT TESTIMONIALS */
-/*--------------------*/
 
 #mu-testimonials {
 	background-image: url("assets/images/testimonials-bg.jpeg");
@@ -904,10 +842,6 @@ button:focus {
 }
 
 
-/*--------------------*/
-/* CONTACT US */
-/*--------------------*/
-
 #mu-contact {
 	background-color: #fff;
 	display: inline;
@@ -1009,12 +943,12 @@ button:focus {
 	font-size: 15px;
 }
 
-.mu-contact-form .form-control:-moz-placeholder { /* Firefox 18- */
+.mu-contact-form .form-control:-moz-placeholder {
 	color: #888;
 	font-size: 15px;
 }
 
-.mu-contact-form .form-control::-moz-placeholder {  /* Firefox 19+ */
+.mu-contact-form .form-control::-moz-placeholder {
 	color: #888;
 	font-size: 15px;
 }
@@ -1065,12 +999,6 @@ button:focus {
 }
 
 
-
-/*--------------------*/
-/* FOOTER */
-/*--------------------*/
-
-
 #mu-footer {
 	background-color: #f8f8f8;
 	display: inline;
@@ -1097,11 +1025,6 @@ button:focus {
 	transition: all 0.5s;
 }
 
-
-
-/*--------------------*/
-/* RESPONSIVE STYLE */
-/*--------------------*/
 
 @media (max-width: 1199px) {
 
@@ -1383,12 +1306,5 @@ button:focus {
 
 }
 
-
-
 @media (max-width: 320px){
-
-
-
-
-
 }
